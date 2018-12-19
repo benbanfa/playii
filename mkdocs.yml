@@ -1,0 +1,5 @@
+site_name: Playii
+extra_css: [style.css]
+nav:
+- CRUD之外: '0000-concepts-other-than-crud.md'
+- '0001-creating-objects.md'
