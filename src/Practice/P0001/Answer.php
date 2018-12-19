@@ -1,20 +1,20 @@
 <?php
 
-namespace Playii\Exercise\Ex0001;
+namespace Playii\Practice\P0001;
 
 use yii\web\Application;
 
 /**
  * 说明：
  *
- * - 注释里的Application都是指`yii\web\Application`
+ * - 此class注释里的Application都是指`yii\web\Application`
  * - 提供了createDummyApplication()方法，可获取Application对象
  */
-class Ex
+class Answer
 {
     /**
-     * 获取Application所有默认组件（Core components）的类名，
-     * 返回值为类名的数组，按SORT_REGULAR方式排序。
+     * 获取Application所有默认组件（Core components）的类名
+     * 按SORT_REGULAR方式排序，以数组形式返回
      *
      * @return array
      */
@@ -26,7 +26,7 @@ class Ex
     /**
      * 创建一个Application对象
      *
-     * @return \yii\web\Application
+     * @return Application
      */
     protected function createDummyApplication()
     {

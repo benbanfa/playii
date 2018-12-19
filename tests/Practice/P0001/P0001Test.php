@@ -1,11 +1,11 @@
 <?php
 
-namespace Playii\Tests\Exercise;
+namespace Tests\Practice\P0001;
 
 use PHPUnit\Framework\TestCase;
-use Playii\Exercise\Ex0001\Ex;
+use Playii\Practice\P0001\Answer;
 
-class ExTest extends TestCase
+class P0001Test extends TestCase
 {
     public function testCoreComponentClasses()
     {
@@ -24,13 +24,13 @@ class ExTest extends TestCase
             'yii\web\User',
             'yii\web\ErrorHandler',
         ];
-        sort($expected, SORT_REGULAR);
+        \sort($expected, SORT_REGULAR);
 
-        $ex = new Ex();
+        $answer = new Answer();
 
         $this->assertEquals(
             $expected,
-            $ex->getSortedCoreComponentClassNames()
+            $answer->getSortedCoreComponentClassNames()
         );
     }
 }

@@ -13,6 +13,6 @@ class PortalController extends Controller
      */
     public function actionHome()
     {
-        return 'home';
+        return 'Hello World!';
     }
 }
